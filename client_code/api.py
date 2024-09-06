@@ -34,6 +34,7 @@ def get_environment():
         "mode",
         "operatingSystem",
         "tableauVersion",
+        "uniqueUserId",
     ]
     return {attr: env.get(attr) for attr in attrs}
 
